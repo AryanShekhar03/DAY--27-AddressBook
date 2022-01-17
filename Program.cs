@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Address_Book_System
+namespace AddressBookSystem
 {
     class Program
     {
@@ -33,7 +33,10 @@ namespace Address_Book_System
                             AddressBook.Details();
                             break;
                         case 3:
-                            AddressBook.CountByCityOrStateName();
+                            AddressBook.SortByFirstName();
+                            break;
+                        case 4:
+                            AddressBook.SortByChoice();
                             break;
                         default:
                             Console.Write("Choice correct option : ");
